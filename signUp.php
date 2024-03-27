@@ -13,7 +13,7 @@
     </header>
 
     <main>
-        <form action="includes/formhandler.inc.php" method="post">
+        <form action="includes/db.inc.php" method="post">
             <div class="form-floating mb-3">
                 <input required type="text" name = "fullname" class="form-control" id="floatingInput" placeholder="Fullname">
                 <label for="floatingInput">Fullname</label>
